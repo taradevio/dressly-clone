@@ -148,4 +148,41 @@ menu {
         background-position: center;
         background-size: cover;
     }
+
+    .bestsellers-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .bestsellers-title a {
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #e09370;
+    }
+
+    .bestsellers-item {
+        border: 1px solid gray;
+        border-radius: 10px;
+        width: max-content;
+        padding: 10px;
+    }
+
+    .rating {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .rating img {
+        margin-right: 7px;
+    }
+
+    .bestsellers-item .normal-price {
+        color: #e09370;
+        font-size: small;
+        text-decoration: line-through;
+        text-decoration-color: #e09370;
+    }
 }
