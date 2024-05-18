@@ -149,6 +149,10 @@ menu {
         background-size: cover;
     }
 
+    #bestsellers {
+        margin-bottom: 2.5rem;
+    }
+
     .bestsellers-title {
         display: flex;
         justify-content: space-between;
@@ -184,5 +188,44 @@ menu {
         font-size: small;
         text-decoration: line-through;
         text-decoration-color: #e09370;
+    }
+
+    .order-wrapper {
+        border-radius: 10px;
+        background-color: #f5ccab;
+        padding: 1.5rem 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .order-wrapper h2 {
+        margin-bottom: 1.5rem;
+    }
+
+    .steps-wrapper {
+        /* border: 2px solid; */
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    .number-step {
+        display: inline-block;
+        /* border: 2px solid; */
+        padding: 8px 13px;
+        background-color: wheat;
+        border-radius: 100vw;
+    }
+
+    .steps {
+        display: flex;
+        gap: 1.5rem;
+        /* border: 2px solid; */
+        width: fit-content;
+        /* padding: 1rem 0; */
+        /* margin: 1rem 0; */
+        align-items: center;
     }
 }
