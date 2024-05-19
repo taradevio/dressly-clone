@@ -190,6 +190,10 @@ menu {
         text-decoration-color: #e09370;
     }
 
+    #order {
+        margin-bottom: 1.5rem;
+    }
+
     .order-wrapper {
         border-radius: 10px;
         background-color: #f5ccab;
@@ -203,7 +207,6 @@ menu {
     }
 
     .steps-wrapper {
-        /* border: 2px solid; */
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
@@ -213,7 +216,6 @@ menu {
 
     .number-step {
         display: inline-block;
-        /* border: 2px solid; */
         padding: 8px 13px;
         background-color: wheat;
         border-radius: 100vw;
@@ -222,10 +224,37 @@ menu {
     .steps {
         display: flex;
         gap: 1.5rem;
-        /* border: 2px solid; */
         width: fit-content;
-        /* padding: 1rem 0; */
-        /* margin: 1rem 0; */
         align-items: center;
+    }
+
+    #newsletter {
+        margin-bottom: 1.5rem;
+    }
+
+    #newsletter h2 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #email {
+        padding: 10px;
+        border: 1px solid gray;
+        width: 83%;
+        border-radius: 8px;
+    }
+
+    .submit {
+        display: inline-flex;
+        border-radius: 7px;
+        border: none;
+        padding: 9px;
+        background-color: #e09370;
     }
 }
