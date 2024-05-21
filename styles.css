@@ -122,11 +122,21 @@ menu {
         color: #f4f4f4;
     }
 
+    .hijab, .bag, .shoes {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .hijab h2, .bag h2, .shoes h2 {
+        margin-bottom: 2em;
+    }
+
     .hijab {
         border-radius: 10px;
         width: 300px;
         height: 300px;
-        background-image: url("assets/hijab.png");
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/hijab.png");
         background-position: center;
         background-size: cover;
     }
@@ -135,7 +145,7 @@ menu {
         border-radius: 10px;
         width: 300px;
         height: 300px;
-        background-image: url("assets/bag.png");
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/bag.png");
         background-position: center;
         background-size: cover;
     }
@@ -144,7 +154,7 @@ menu {
         border-radius: 10px;
         width: 300px;
         height: 300px;
-        background-image: url("assets/shoes.png");
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/shoes.png");
         background-position: center;
         background-size: cover;
     }
@@ -184,10 +194,10 @@ menu {
     }
 
     .bestsellers-item .normal-price {
-        color: #e09370;
+        color: #FF4530;
         font-size: small;
         text-decoration: line-through;
-        text-decoration-color: #e09370;
+        text-decoration-color: #FF4530;
     }
 
     #order {
@@ -256,5 +266,38 @@ menu {
         border: none;
         padding: 9px;
         background-color: #e09370;
+    }
+
+    .download {
+        margin-bottom: 1rem;
+    }
+
+    .btn-dwld-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .appstore-btn, .playstore-btn {
+        background-color: black;
+        border: none;
+        border-radius: 8px;
+        color: #f4f4f4;
+        padding: 7px 23px;
+    }
+
+    .appstore, .playstore {
+        font-size: 15px;
+    }
+
+    .appstore-btn div, .playstore-btn div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .appstore-btn div p, .playstore-btn div p {
+        font-size: 10px;
     }
 }
